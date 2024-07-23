@@ -1,7 +1,3 @@
-# Date: 02/01/2019
-# Author: Mohamed
-# Description: Encryption & Decryption
-
 from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
 from Crypto.Random import get_random_bytes

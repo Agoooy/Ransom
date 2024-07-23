@@ -1,7 +1,3 @@
-# Date: 08/31/2018
-# Author: Pure-L0G1C
-# Description: Unpacks and drops off malware
-
 import os
 import zlib
 from time import sleep

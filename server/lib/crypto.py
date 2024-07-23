@@ -1,7 +1,3 @@
-# Date: 11/03/2019
-# Author: Mohamed
-# Description: Encryption & Decryption
-
 from Crypto.Hash import SHA256
 from Crypto.PublicKey import RSA
 from Crypto.Signature import pkcs1_15

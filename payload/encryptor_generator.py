@@ -1,7 +1,3 @@
-# Date: 11/03/2019
-# Author: Mohamed
-# Description: Generate payloads
-
 import os
 import sys
 import zlib

@@ -1,7 +1,3 @@
-# Date: 11/03/2019
-# Author: Mohamed
-# Description: Locate and encrypt files
-
 import os
 import time
 import secrets
