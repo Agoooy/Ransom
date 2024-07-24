@@ -78,7 +78,6 @@ Setiap kali Anda membuat ransomware, Anda harus membuat decryptor untuk ransomwa
 
 ---
 ### Connect with me
-
   You can reach me through My Gmail, LinkedIn, or Instagram account
   
  <a
